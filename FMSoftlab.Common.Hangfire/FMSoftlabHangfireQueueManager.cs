@@ -11,8 +11,7 @@ namespace FMSoftlab.Common.Hangfire
     {
         private string QueueName { get; }
 
-        //https://discuss.hangfire.io/t/rescheduling-the-job-to-default-queue-despite-it-is-being-set-in-another-queue/1175/5
-        //https://earwicker.com/Hangfire_A_Tale_of_Several_Queues.html
+
         private const string QueuePropertyName = "StashedQueueName";
         /*public class Hangfire_QueueNameSetter : IClientFilter
         {
