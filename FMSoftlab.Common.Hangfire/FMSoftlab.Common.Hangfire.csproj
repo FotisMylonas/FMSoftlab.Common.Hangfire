@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="hangfire" Version="1.7.23" />
+    <PackageReference Include="hangfire" Version="1.7.24" />
   </ItemGroup>
 
 </Project>
